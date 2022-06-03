@@ -1,0 +1,24 @@
+<app-header></app-header>
+<div class="card flex-row flex-wrap ">
+    <div class="card-header">
+        <img class="img-size" src="{{data?.Poster}}">
+    </div>
+    <div class="card-details">
+        <div class="rating">
+            <p class="card-data title">{{data?.Metascore}}</p>
+            <h4>{{data?.Title}} ({{data?.Year}})</h4>
+        </div>
+        <div class="rating">
+            <h3>{{data?.imdbRating}}</h3>
+            <p class="card-data">{{data?.Rated}} | {{data?.Runtime}} | {{data?.Genre}} | {{data?.Language}} | {{data?.Released}} ({{data?.Country}})</p>
+        </div>
+        <div class="card-set"><p class="title">Awards:</p><p>{{data?.Awards}}</p></div>
+        <div class="card-set"><p class="title">Summary:</p><p>{{data?.Plot}}</p></div>
+        <div class="card-set"><p class="title">Director:</p><p>{{data?.Director}}</p></div>
+        <div class="card-set"><p class="title">Writer:</p><p>{{data?.Writer}}</p></div>
+        <div class="card-set"><p class="title">Actors:</p><p>{{data?.Actors}}</p></div>
+        <div class="card-set"><p class="title">Production:</p><p>{{data?.Production}}</p></div>
+        <button class="btn" routerLink="">See More at OMDB</button>
+    </div>
+</div>
+<p class="copyright">Copyright 2022 OMDB Movies</p>

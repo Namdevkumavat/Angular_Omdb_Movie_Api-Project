@@ -1,0 +1,59 @@
+.card-header{
+    background-color:white;
+    border:0;
+}
+
+.img-size{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.card{
+    margin: 30px;
+    padding: 20px;
+    box-shadow: 0.5px 1px 15px ;  
+ }
+
+.card-details{
+    margin: 15px;
+    width: 60%;
+}
+
+.rating{
+    display:flex ; 
+}
+
+h3{
+    margin-right: 3%; 
+}
+
+.title{
+    font-style: italic;
+    font-weight: bold;
+    margin-right: 2%;
+}
+
+.copyright{
+    text-align: center;
+    margin-top: 6%;
+}
+
+.card-set{
+    display: flex;
+}
+
+.card-data{
+    color: grey;
+    font-weight:bold;
+}
+
+.btn{
+    background-color: #329c8c;
+    color:white;
+}
+
+.btn:hover{
+    background-color: white;
+    border:2px solid black;
+    color:black;
+}
